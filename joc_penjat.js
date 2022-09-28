@@ -100,7 +100,7 @@ function comprovaSiHaGuanyat() {
 // Afegeix les lletres utilitzades a l'array de lletresUtilitzades i al HTML
 function afegeixLletraUtilitzada(lletra) {
     lletresUtilitzades.push(lletra);
-    document.getElementById('lletresUtilitzades').innerHTML = lletresUtilitzades;
+    document.getElementById('lletresUtilitzades').innerHTML = 'Lletres utilitzades: ' + lletresUtilitzades;
 }
 
 // Neteja les lletres utilitzades del div a l'HTML
